@@ -135,5 +135,3 @@ Try it now in your browser console! 🚀
 ⚠️ Stay informed. Stay safe.
 
 🔗 For more OSINT tools & cyber tips, follow us: [@cybersecplayground](https://t.me/cybersecplayground)
-
-Join our Telegram Channel : 
