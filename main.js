@@ -7,29 +7,29 @@
     results.add(key);
   });
 
-  // Extract from url Cookies
+  // Extract from Cookies
   document.cookie.split(';').forEach(cookie => {
     const key = cookie.split('=')[0].trim();
     results.add(key);
   });
 
-  // Extract from url LocalStorage keys
+  // Extract from LocalStorage keys
   Object.keys(localStorage).forEach(key => {
     results.add(key);
   });
 
-  // Extract from url SessionStorage keys
+  // Extract from SessionStorage keys
   Object.keys(sessionStorage).forEach(key => {
     results.add(key);
   });
 
-  // Extract from url Meta tags (name/property)
+  // Extract from Meta tags (name/property)
   document.querySelectorAll('meta[name], meta[property]').forEach(meta => {
     const key = meta.getAttribute('name') || meta.getAttribute('property');
     results.add(key);
   });
 
-  // Extract from url Data attributes (all elements)
+  // Extract from Data attributes (all elements)
   document.querySelectorAll('*').forEach(el => {
     [...el.attributes].forEach(attr => {
       if (attr.name.startsWith('data-')) {
@@ -38,7 +38,7 @@
     });
   });
 
-  // Extract from url Form input names
+  // Extract from Form input names
   document.querySelectorAll('input[name], select[name], textarea[name]').forEach(el => {
     results.add(el.name);
   });
