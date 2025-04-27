@@ -1,4 +1,7 @@
+![image](https://github.com/user-attachments/assets/35c7464d-2290-42c2-8376-b1f34bdbdfab)
+
 ## 🔍 ParamSniffer - The Ultimate Web Parameter Extraction Tool
+
 > ParamSniffer is a powerful yet lightweight JavaScript tool designed to extract all possible parameters from a web page with a single console command. It's perfect for security researchers, bug bounty hunters, penetration testers, and web developers who need to quickly gather parameters for fuzzing, testing, or debugging.
 
 ### 🌟 Key Features
